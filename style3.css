@@ -142,6 +142,7 @@ nav ul li a:hover::after{
    position: relative;
    overflow: hidden;
    margin-right: 50px;
+   width: 320px;
    
 }
 .work img{
@@ -150,7 +151,10 @@ nav ul li a:hover::after{
    display: block;
    object-position: top;
    margin-top: 40px;
-
+   transition: .4s ease-in;
+}
+.box:hover img{
+   transform: scale(1.2);
 }
 
 .text{
